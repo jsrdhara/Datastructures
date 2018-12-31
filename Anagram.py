@@ -1,9 +1,8 @@
 def anagramSolution1(s1,s2):
+    
     list_2 = list(s2)
-
     i = 0
     stillOK = True
-
     while i < len(s1) and stillOK:
         j = 0
         found = False
@@ -12,14 +11,11 @@ def anagramSolution1(s1,s2):
                 found = True
             else:
                 j = j + 1
-
         if found:
             list_2[j] = None
         else:
             stillOK = False
-
         i = i + 1
-
     return stillOK
 
 print(anagramSolution1('abcd','dcba'))
@@ -30,13 +26,10 @@ def anagr(a1,a2):
 
     list1= list(a1)
     list2 = list(a2)
-
     list1.sort()
     list2.sort()
-
     pos =0
     found = True
-
     while pos<len(list1) and found:
         if list1[pos]==list2[pos]:
             pos = pos +1
