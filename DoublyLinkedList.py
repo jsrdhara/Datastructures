@@ -29,3 +29,22 @@ class DLinkedList():
         self.head=None
 
     def add(self,item):
+        temp = Node(item)
+        temp.set_next(self.head)
+        if self.head is not None:
+            self.head.set_prev(temp)
+        self.head = temp
+
+    def print(self):
+        current = self.head
+        while current!=None:
+            print(current.get_data())
+            current=current.get_next()
+
+mylist = DLinkedList()
+
+mylist.add(2)
+mylist.add(3)
+mylist.add(4)
+
+mylist.print()
