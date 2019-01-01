@@ -22,3 +22,24 @@ def recursive_factorial(n):
     return n*recursive_factorial(n-1)
 
 print(recursive_factorial(5))
+
+#addition
+#Recursion
+def add(mylist):
+
+    if len(mylist)==1:
+        return mylist[0]
+
+    return mylist[0]+add(mylist[1:])
+
+print(add([1,2,3]))
+
+#Iterative method
+
+def add(mylist):
+    sum=0
+    for i in mylist:
+        sum=sum+i
+    return sum
+
+print(add([1,2,3]))
