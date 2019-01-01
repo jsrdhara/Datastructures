@@ -35,6 +35,34 @@ class DLinkedList():
             self.head.set_prev(temp)
         self.head = temp
 
+    def insert_after(self, prev_node, data):
+
+        if prev_node is None:
+            print('previous note cannot be None')
+            return
+
+        new_node = Node(data)
+        new_node.set_next(prev_node.next)
+        prev_node.set_next(new_node)
+        new_node.set_prev(prev_node)
+
+        if new_node.get_next()!=None:
+            new_node.get_next().set_prev(new_node)
+
+    def append(self,item):
+
+        new_node = Node(item)
+        new_node.set_next(None)
+        if self.head is None:
+            new_node.set_prev(None)
+            self.head=new_node
+        last_node = self.head
+        while last_node.get_next()!=None:
+            last_node=last_node.get_next()
+        last_node.set_next(new_node)
+        new_node.set_prev(last_node)
+
+
     def print(self):
         current = self.head
         while current!=None:
@@ -46,5 +74,7 @@ mylist = DLinkedList()
 mylist.add(2)
 mylist.add(3)
 mylist.add(4)
+mylist.insert_after(mylist.head, 8)
+mylist.append(7)
 
 mylist.print()
