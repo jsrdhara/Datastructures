@@ -7,4 +7,4 @@ Various Data Structures Implementations in Python.\
 -Doubly Linked Lists\
 -Binary Trees\
 -Searching Algorithms\
--Sorting Algorithms\
+-Sorting Algorithms
