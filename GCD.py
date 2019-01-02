@@ -38,27 +38,3 @@ f2 = Fraction(1,2)
 f3 = f1+f2
 print(f3)
 print(f1==f2)
-
-N = 4
-# Function to check matrix
-# is diagonal matrix
-# or not.
-def isDiagonalMatrix(mat):
-    for i in range(0, N):
-        for j in range(0, N):
-
-            if ((i != j) and (mat[i][j] != 0)):
-                return False
-
-    return True
-
-# Driver function
-mat = [[4, 0, 0, 0],
-       [0, 7, 0, 0],
-       [0, 0, 5, 0],
-       [0, 0, 1, 0]]
-
-if (isDiagonalMatrix(mat)):
-    print("Yes")
-else:
-    print("No")
