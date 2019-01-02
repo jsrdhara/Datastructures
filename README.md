@@ -1,5 +1,5 @@
 # Datastructures
-Various Data Structures Implementations in Python.
+Various Data Structures Implementations in Python.\
 -Stacks\
 -Queues\
 -DeQueue\
