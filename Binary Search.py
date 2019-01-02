@@ -1,6 +1,6 @@
 # Implementation of Binary Search
 
-#Iteratie Method
+#Iterative Method
 
 def BinarySearch(mylist,item):
     first = 0
