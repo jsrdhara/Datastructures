@@ -28,7 +28,6 @@ class LinkedList():
         current = self.head
         previous = None
         stop = False
-
         while current!=None and not stop:
             if current.get_data()>item:
                 stop = True
@@ -49,15 +48,12 @@ class LinkedList():
         current =self.head
         previous = None
         found = False
-
         while current!=None and not found:
-
             if current.get_data()==item:
                 found=True
             else:
                 previous=current
                 current=current.get_next()
-
         if previous==None:
             self.head=current.get_next()
         else:
@@ -96,7 +92,6 @@ class LinkedList():
         found = False
         index = 0
         while current!=None and not found:
-
             if current.get_data()==item:
                 found=True
             else:
