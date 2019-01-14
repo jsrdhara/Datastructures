@@ -39,5 +39,3 @@ def rBinarySearch(mylist,item):
 
 print(rBinarySearch(testlist, 17))
 print(rBinarySearch(testlist, 13))
-
-

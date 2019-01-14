@@ -1,15 +1,12 @@
-def insertionSort(alist):
-   for index in range(1,len(alist)):
+def InsertionSort(mylist):
+    for index in range(1,len(mylist)):
+        position = index
+        currentvalue = mylist[index]
+        while position>0 and mylist[position-1]>currentvalue:
+            mylist[position]=mylist[position-1]
+            position=position-1
 
-     currentvalue = alist[index]
-     position = index
+        mylist[position]=currentvalue
+    return mylist
 
-     while position>0 and alist[position-1]>currentvalue:
-         alist[position]=alist[position-1]
-         position = position-1
-
-     alist[position]=currentvalue
-
-alist = [54,26,93,17,77,31,44,55,20]
-insertionSort(alist)
-print(alist)
+print(InsertionSort(([54,26,1])))
