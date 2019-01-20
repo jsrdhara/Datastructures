@@ -43,3 +43,32 @@ def add(mylist):
     return sum
 
 print(add([1,2,3]))
+
+#fibonacci iterative
+
+def iterative_fibonacci(num):
+
+    a,b = 0,1
+    out_list=[]
+    for _ in range(1,num):
+        a,b=b,a+b
+        out_list.append(b)
+    return out_list
+print(iterative_fibonacci(5))
+
+#fibonacci recursive
+
+def recursive_fibonacci(num):
+
+    if num==0:
+        return 0
+    elif num==1:
+        return 1
+    else:
+        return recursive_fibonacci(num-1)+recursive_fibonacci(num-2)
+
+for i in range(5):
+    print(recursive_factorial(i))
+
+
+
