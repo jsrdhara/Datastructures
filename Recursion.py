@@ -44,31 +44,21 @@ def add(mylist):
 
 print(add([1,2,3]))
 
-#fibonacci iterative
+#fibonacci Series
 
-def iterative_fibonacci(num):
+# Created by Jan Markus, edited by Martin
 
-    a,b = 0,1
-    out_list=[]
-    for _ in range(1,num):
-        a,b=b,a+b
-        out_list.append(b)
-    return out_list
-print(iterative_fibonacci(5))
+class Fibonacci:
+    def fibo(self, x):
+        if x == 0:
+            return 0
+        elif x == 1:
+            return 1
+        else:
+            return self.fibo(x-1) + self.fibo(x-2)
 
-#fibonacci recursive
+f = Fibonacci()
 
-def recursive_fibonacci(num):
-
-    if num==0:
-        return 0
-    elif num==1:
-        return 1
-    else:
-        return recursive_fibonacci(num-1)+recursive_fibonacci(num-2)
-
-for i in range(5):
-    print(recursive_factorial(i))
-
-
+for i in range(16):
+    print(f.fibo(i))
 
