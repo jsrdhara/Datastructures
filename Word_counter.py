@@ -27,9 +27,8 @@ def Word_counter(sentence):
             counts[word] = 1
 
     # Returning top 10 most frequent words or punctuations and their counts
+    print('The most frequent words/punctuations in given paragraph are:')
     return (sorted(counts.items(), key=lambda kv: kv[1], reverse=True))[:10]
 
 Text = 'Whales are marine mammals of order Cetacea which are neither dolphins - members, in other words, of the families delphinidae or platanistoidae - nor porpoises. They include the blue whale, the largest animal ever to have lived. Orcas, colloquially referred to as "killer whales", and pilot whales have whale in their name but for the purpose of classification they are actually dolphins. For centuries, whales have been hunted for meat and as a source of valuable raw materials. By the middle of the 20th century, large-scale industrial whaling had left many populations severely depleted, rendering certain species seriously endangered.'
-
-if __name__ == '__main__':
-    Word_counter(Text)
+print(Word_counter(Text))
