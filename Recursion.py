@@ -61,4 +61,3 @@ f = Fibonacci()
 
 for i in range(16):
     print(f.fibo(i))
-
