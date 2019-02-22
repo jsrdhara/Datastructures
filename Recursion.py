@@ -46,8 +46,6 @@ print(add([1,2,3]))
 
 #fibonacci Series
 
-# Created by Jan Markus, edited by Martin
-
 class Fibonacci:
     def fibo(self, x):
         if x == 0:
