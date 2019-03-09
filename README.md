@@ -5,6 +5,7 @@ Various Data Structures Implementations in Python.\
 -DeQueue\
 -Linked lists\
 -Doubly Linked Lists\
+-HashMap\
 -Binary Trees\
 -Searching Algorithms\
 -Sorting Algorithms
