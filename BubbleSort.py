@@ -1,5 +1,4 @@
 # Bubble sort
-
 def BubbleSort(mylist):
     for passnum in range(len(mylist)-1,0,-1):
         for i in range(passnum):
