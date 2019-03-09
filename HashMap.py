@@ -66,5 +66,3 @@ H[20]="chicken"
 
 print(H.slots)
 print(H.data)
-
-
