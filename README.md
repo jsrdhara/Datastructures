@@ -8,4 +8,4 @@ Various Data Structures Implementations in Python.\
 -HashMap\
 -Binary Trees\
 -Searching Algorithms\
--Sorting Algorithms\
+-Sorting Algorithms
