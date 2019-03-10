@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2843f774-f6a2-49fe-accc-59f4a5b3e96e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/MergeSort.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/QuickSort.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSort.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MergeSort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QuickSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -107,6 +117,7 @@
         <option value="$PROJECT_DIR$/ShortBubbleSort.py" />
         <option value="$PROJECT_DIR$/Shell Sort.py" />
         <option value="$PROJECT_DIR$/MergeSort.py" />
+        <option value="$PROJECT_DIR$/QuickSort.py" />
       </list>
     </option>
   </component>
@@ -169,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MergeSort">
+  <component name="RunManager" selected="Python.QuickSort">
     <configuration name="HashMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,7 +217,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Parse_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -218,7 +229,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Datastructures" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Parse_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QuickSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,19 +289,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.Datastructures" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Parse_file" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Shell Sort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.HashMap" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ShortBubbleSort" />
-      <item index="5" class="java.lang.String" itemvalue="Python.MergeSort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Shell Sort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.HashMap" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ShortBubbleSort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.MergeSort" />
+      <item index="5" class="java.lang.String" itemvalue="Python.QuickSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.MergeSort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Shell Sort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ShortBubbleSort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.HashMap" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Parse_file" />
+        <item index="0" class="java.lang.String" itemvalue="Python.QuickSort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MergeSort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Shell Sort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ShortBubbleSort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.HashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552191893600</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Commit">
+      <created>1552253855386</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552253855386</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -586,13 +604,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SelectionSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InsertionSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -920,7 +931,15 @@
     <entry file="file://$PROJECT_DIR$/MergeSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding />
         </state>
       </provider>
